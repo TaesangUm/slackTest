@@ -8,4 +8,4 @@ def post_message(token, channel, text):
         data={"channel": channel,"text": text}
     )
 
-post_message(myToken,"#test","안녕하세요."
+post_message(myToken,"#test","안녕하세요.")
